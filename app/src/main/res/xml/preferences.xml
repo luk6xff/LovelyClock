@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/category_general_title">
+        <ListPreference
+            android:key="@string/category_general_theme_key"
+            android:title="@string/category_general_theme"
+            android:dialogTitle="@string/category_general_theme"
+            android:entries="@array/category_general_theme_array"
+            android:entryValues="@array/category_general_theme_array"
+            android:defaultValue="@string/category_general_theme_light"
+            android:summary="%s">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
