@@ -1,2 +1,2 @@
 # LovelyClock
-Alarm Clock application for my GF :D
+Alarm Clock application for Justa :D

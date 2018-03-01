@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation">
+    <!--      Here come strings which are not contained in the AOSP -->
+
+    <string-array name="fade_in_time_sec_values" tools:ignore="MissingTranslation">
+        <item>1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+    </string-array>
+    <!-- Setting labels on Set alarm screen: Prealarm -->
+    <string name="alarm_prealarm">Gentle pre-alarm</string>
+    <!-- Pre-alarm duration title -->
+    <string name="prealarm_duration_title" tools:ignore="MissingTranslation">Pre-alarm duration</string>
+    <!--
+         Entries listed in the ListPreference when invoking the pre-alarm duration
+         preference.
+    -->
+    <string-array name="prealarm_duration_entries">
+        <item>Off</item>
+        <item>10 minutes</item>
+        <item>20 minutes</item>
+        <item>30 minutes</item>
+        <item>45 minutes</item>
+        <item>60 minutes</item>
+    </string-array>
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the prealarm_duration_entries above.
+    -->
+    <string-array name="prealarm_duration_values" tools:ignore="MissingTranslation">
+        <item>-1</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <!-- Pre-alarm duration summary string set based on the preference value. -->
+    <string name="prealarm_summary">Pre-alarm will start
+<xliff:g id="minutes">%d</xliff:g> minutes before the main alarm</string>
+    <string name="info_fragment_prealarm_summary"><xliff:g id="minutes">%d</xliff:g> minutes pre-alarm</string>
+    <string name="prealarm_off_summary">Pre-alarm is switched off</string>
+    <string name="main_alarm">Main alarm</string>
+    <string name="master_volume">Master volume</string>
+    <string name="bug_report_toast">Sorry, the app has crashed and a report has been sent to developer to prevent this in future</string>
+    <string name="share">Share</string>
+    <string name="bugreport">Send a bugreport</string>
+    <string name="review">Rate the app</string>
+    <string name="bugreport_hint">Describe your complaint here</string>
+    <string name="review_message">Thanks a lot for taking your time to review the application! Positive reviews help to attract more users, which helps to improve the application by collecting feedback. Would you like to proceed?</string>
+    <string name="longclick_dismiss_title">Longclick dismiss</string>
+    <string name="longclick_dismiss_summary">Hold the dismiss button to dismiss the alarm</string>
+    <string name="fade_in_time_sec_title" tools:ignore="MissingTranslation">Fade-in duration</string>
+    <string-array name="fade_in_time_sec_entries">
+        <item>Off</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>120 seconds</item>
+    </string-array>
+    <string name="fade_in_summary">Fade-in duration is <xliff:g id="seconds">%d</xliff:g> seconds</string>
+    <string name="fade_in_off_summary">Fade-in is switched off</string>
+    <string-array name="alarm_set_short">
+        <item>Less than a minute from now</item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item><xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+    </string-array>
+    <string name="show_info_fragment_title">Time until next alarm</string>
+    <string name="show_info_fragment_summary">Show a fragment which shows how many time until the next alarm is left in the bottom of the list</string>
+    <string name="dashclock">Get DashClock</string>
+    <string name="dashclock_message">You will be transferred to Google Play to install DashClock. Dashclock is a widget which perfectly integrates with Simple Alarm!</string>
+    <string name="mp3cutter">Get MP3 cutter</string>
+    <string name="mp3cutter_message">You will be transferred to Google Play to search for an appliaction which will allow you to use MP3 files as alarm sound.</string>
+ 
+    <string name="theme_title">Interface theme</string>
+    <string-array name="themes_entries">
+        <item>Holo dark</item>
+        <item>Classic light</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+    <string name="simple_alarm_clock">Simple Alarm Clock</string>
+        <!--
+         Entries listed in the ListPreference when invoking the snooze duration
+         preference.
+    -->
+    <string-array name="snooze_duration_with_off_entries">
+        <item>Off</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above.
+    -->
+    <string-array name="snooze_duration_with_off_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string name="alarm_alert_reschedule_text">Reschedule</string>
+    <string name="alarm_alert_hold_the_button_text">Hold the button!</string>
+    <string name="menu_extensions">Extensions</string>
+
+    <string name="preference_category_sound">Volumes and sound</string>
+    <string name="preference_category_ui">User interface</string>
+    <string name="preference_category_durations">Durations</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Dark Themes -->
+    <style name="DefaultDarkTheme" parent="Base.Theme.AppCompat">
+        <item name="alarmDetailsButtonStyle">@style/DarkAlarmDetailsButtonStyle</item>
+    </style> 
+    <style name="AlarmAlertFullScreenDarkTheme" parent="android:Theme.Material.NoActionBar">
+         <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="TimePickerDialogFragmentDark" parent="android:style/Theme.Material.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="timePickerDeleteButtonStyle">@style/DarkTimePickerDeleteButtonStyle</item>
+    </style>
+</resources>

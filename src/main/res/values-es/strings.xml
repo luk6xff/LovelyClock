@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation,MissingTranslation">
+    <!--      Here come strings which are not contained in the AOSP -->
+
+    <!-- Setting labels on Set alarm screen: Prealarm -->
+    <string name="alarm_prealarm">Pre-alarma discreta</string>
+    <!-- Pre-alarm duration title -->
+    <string name="prealarm_duration_title">Duración de Pre-Alarma</string>
+    <!--
+         Entries listed in the ListPreference when invoking the pre-alarm duration
+         preference.
+    -->
+    <string-array name="prealarm_duration_entries">
+        <item>está apagada</item>
+        <item>10 minutos</item>
+        <item>20 minutos</item>
+        <item>30 minutos</item>
+        <item>45 minutos</item>
+        <item>60 minutos</item>
+    </string-array>
+    <!-- Pre-alarm duration summary string set based on the preference value. -->
+    <string name="prealarm_summary">La Pre-alarma comenzará
+<xliff:g id="minutes">%d</xliff:g> minutos antes de la alarma principal</string>
+    <string name="info_fragment_prealarm_summary"><xliff:g id="minutes">%d</xliff:g> minutos Pre-alarma</string>
+    <string name="prealarm_off_summary">La Pre-Alarma está apagada</string>
+    <string name="main_alarm">Alarma principal</string>
+    <string name="master_volume">Volumen maestro</string>
+    <string name="bug_report_toast">Lo sentimos, la aplicación se ha estrellado y un informe ha sido enviado al desarrollador para evitar esto en el futuro</string>
+    <string name="share">Cuota</string>
+    <string name="bugreport">Enviar un informe de error</string>
+    <string name="review">Valorar la aplicación</string>
+    <string name="bugreport_hint">Describa su queja aquí</string>
+    <string name="review_message">Muchas gracias por tomarse el tiempo para revisar la aplicación! Opiniones positivas ayudan a atraer a más usuarios, lo que ayuda a mejorar la aplicación mediante la recopilación de retroalimentación. ¿Desea continuar?</string>
+    <string name="longclick_dismiss_title">Descartar con click largo</string>
+    <string name="longclick_dismiss_summary">Manten el botón descartar presionado para descartar la alarma</string>
+    <string name="fade_in_time_sec_title">Duración de aumento gradual de volumen</string>
+    <string-array name="fade_in_time_sec_entries">
+        <item>está apagada</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+        <item>60 segundos</item>
+        <item>120 segundos</item>
+    </string-array>
+    <string name="fade_in_summary">Duración del aumento gradual de volumen es <xliff:g id="seconds">%d</xliff:g> segundos</string>
+    <string name="fade_in_off_summary">Está apagada</string>
+    <string-array name="alarm_set_short">
+        <item>Menos de un minuto a partir de ahora</item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g></item>
+        <item><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g></item>
+        <item><xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="HOURS" example="2 hours">%2$s</xliff:g> and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+        <item><xliff:g id="DAYS" example="2 days">%1$s</xliff:g>, <xliff:g id="HOURS" example="2 hours">%2$s</xliff:g>, and <xliff:g id="MINUTES" example="2 minutes">%3$s</xliff:g></item>
+    </string-array>
+    <string name="show_info_fragment_title">Tiempo hasta la siguiente alarma</string>
+    <string name="show_info_fragment_summary">Muestra una etiqueta con el tiempo restante hasta la siguiente alarma</string>
+    <string name="dashclock">DashClock</string>
+    <string name="dashclock_message">Usted será trasladado a Google Play para instalar DashClock. Dashclock es un widget que se integra perfectamente con Sencilla-despertador!</string>
+    <string name="mp3cutter">MP3 cutter</string>
+    <string name="mp3cutter_message">Usted será trasladado a Google Play para buscar una aplicación que te permitirá utilizar archivos MP3 como sonido de la alarma.</string>
+
+    <string name="theme_title">Tema de la interfaz</string>
+    <string-array name="themes_entries">
+        <item>Holo oscuro</item>
+        <item>Clásico</item>
+        <item>Verde</item>
+    </string-array>
+    <string-array name="themes_values">
+        <item>dark</item>
+        <item>light</item>
+        <item>green</item>
+    </string-array>
+    <string name="simple_alarm_clock">Sencilla-despertador</string>
+        <!--
+         Entries listed in the ListPreference when invoking the snooze duration
+         preference.
+    -->
+    <string-array name="snooze_duration_with_off_entries">
+        <item>Off</item>
+        <item>5 minutos</item>
+        <item>10 minutos</item>
+        <item>15 minutos</item>
+        <item>20 minutos</item>
+        <item>25 minutos</item>
+        <item>30 minutos</item>
+    </string-array>
+    <!--
+         Values that are retrieved from the ListPreference. These must match
+         the snooze_duration_entries above.
+    -->
+    <string-array name="snooze_duration_with_off_values">
+        <item>-1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string name="alarm_alert_reschedule_text">Reprogramar</string>
+    <string name="alarm_alert_hold_the_button_text">Mantenga pulsado el botón!</string>
+    <string name="menu_extensions">"Extensiones"</string>
+</resources>
